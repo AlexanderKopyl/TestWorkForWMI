@@ -150,3 +150,23 @@ iframe{
 .background_for_block{
       background: rgba(250, 250, 250, 0.62);
 }
+/* Block with offers */
+.block_with_cars{
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 18px; */
+}
+.block_with_cars button{
+  transform: skewX(-30deg);
+background-color: red;
+border: none;
+}
+.block_with_cars a {
+  color: white;
+  display: block;
+  transform: skewX(30deg);
+  padding: 5px 15px;
+}
+.text_block{
+      padding: 17px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
