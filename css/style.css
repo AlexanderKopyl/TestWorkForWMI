@@ -22,6 +22,9 @@ a:hover{
   background-position: center;
   background-repeat: no-repeat;
 }
+.container{
+      background-color: white;
+}
 .call_back{
   text-align: right;
 }
