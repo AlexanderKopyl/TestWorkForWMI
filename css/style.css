@@ -29,6 +29,7 @@ a:hover{
   text-align: right;
 }
  .call_back li {
+       padding: 2px 0px;
    display: inline-block;
    color: black;
    margin-right: 10px;
@@ -170,4 +171,51 @@ border: none;
       padding: 17px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-.position_for
+/* Social */
+.color_for_block{
+  background-color: black;
+  color: white;
+}
+.color_for_block a {
+  color: white;
+}
+.aling_for_text{
+  text-align: center;
+}
+.facebook{
+  border-right: 1px solid white;
+  padding: 0 10px;
+}
+.padding_for_block{
+  padding: 0 29px;
+margin-top: 13px;
+}
+/* footer_block */
+.footer_block{
+      min-height: 360px;
+      padding: 20px 30px;
+      margin-top: 30px;
+  color: white;
+  background-color: #363636;
+}
+.footer_block span{
+  display: block;
+}
+.footer_block ul {
+  list-style: none;
+}
+.footer_block li {
+  font-size: 18px;
+}
+.margin_for_block{
+  margin-top: 4%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+.footer_block h4 {
+  font-weight: bold;
+    font-size: 20px;
+}
+.margin_for_block_with_pohone{
+  margin-bottom: 50px;
+}
