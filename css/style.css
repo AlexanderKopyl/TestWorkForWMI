@@ -8,17 +8,20 @@ a{
   text-decoration: none;
   color: black;
 }
+img{
+  width: 100%;
+}
 a:hover{
   color:black;
   text-decoration: none;
 }
 .header{
   background-image: url(../img/headerBackground.png);
-  background-repeat: no-repeat;
+  background-repeat: round;
 }
 .footer{
   background-image: url(../img/footerBackground.png);
-  background-repeat: no-repeat;
+  background-repeat: round;
 }
 .container{
       background-color: white;
@@ -165,6 +168,9 @@ font-size: 25px;
   color:white;
   text-decoration: none;
 }
+.fraeme_container{
+  margin-right: 10px;
+}
 iframe{
   display: block;
 }
@@ -218,32 +224,44 @@ border: none;
 }
 /* Social */
 .color_for_block{
+      min-height: 60px;
   background-color: black;
   color: white;
 }
 .color_for_block a {
   color: white;
 }
+.color_for_block a>img{
+  width:14%;
+}
 .aling_for_text{
+
   text-align: center;
+}
+.aling_for_text h3{
+  margin-top: 10px;
 }
 .facebook{
   border-right: 1px solid white;
   padding: 0 10px;
 }
 .padding_for_block{
-  padding: 0 29px;
-margin-top: 13px;
+  margin-top: 22px;
+background-color: transparent;
 }
 /* footer_block */
 .footer_block{
       min-height: 360px;
       padding: 20px 30px;
-      margin-top: 30px;
+          margin-top: 10px;
   color: white;
   background-color: #363636;
 }
 .footer_block span{
+  display: block;
+}
+.footer_block a{
+  color: white;
   display: block;
 }
 .footer_block ul {
@@ -251,6 +269,10 @@ margin-top: 13px;
 }
 .footer_block li {
   font-size: 18px;
+}
+.footer_block img{
+  margin-bottom: 50px;
+  width: 80%
 }
 .margin_for_block{
   margin-top: 4%;
@@ -263,4 +285,9 @@ margin-top: 13px;
 }
 .margin_for_block_with_pohone{
   margin-bottom: 50px;
+}
+.footer .background_footer_block{
+  background-color: transparent;
+  background-color: none;
+  padding: 0;
 }
